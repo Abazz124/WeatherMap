@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/StyleSheet.css">
+    <meta charset="utf-8" />
+    <title>Weather Report</title>
+</head>
+
+<body>
+
+
+    <h1>Welcome!!</h1>
+
+    <h3>This is a weather report web application</h3>
+
+    <form>
+        <input type="text" id="user_city" placeholder="Search..">
+        <button type="button" class="button" id="city_search" onclick="City_Location()">Enter</button>
+    </form>
+
+    <button type="button" class="button" id="use_Location" onclick="My_Currentlocation()">Use my location</button>
+
+    <div class="float-container">
+        <div class="float-child">
+            <p id="current_time"> time</p>
+            <p id="weather_">Weather loading...</p>
+            <img id="icon" src="" , width="300" height="300">
+
+        </div>
+
+        <div class="float-child">
+            <p id="windSpeed">Wind Speed....</p>
+        </div>
+
+    </div>
+
+    <p id="city">City...</p>
+    <p id="temp">Temperature loading....</p>
+    <p id="feels_like">feels like..</p>
+    <!--last update-->
+
+    <script src="js/JavaScript.js"></script>
+</body>
+</html>
